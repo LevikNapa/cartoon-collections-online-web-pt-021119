@@ -11,8 +11,7 @@ end
 
 def summon_captain_planet(planet_array)# code an argument here
 
- planet_array.map do |calls|
-  new_array << array.capitalize + "!"
+ planet_array.map  {|names| array.capitalize + "!"}
     end# Your code here
   
 end
