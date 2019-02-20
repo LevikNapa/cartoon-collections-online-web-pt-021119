@@ -13,7 +13,7 @@ def summon_captain_planet(array)# code an argument here
   array.collect do |calls|
     array.upcase + "!"
     end# Your code here
-    planeteer_calls
+  
 end
 
 def long_planeteer_calls# code an argument here
