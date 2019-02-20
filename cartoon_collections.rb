@@ -11,7 +11,7 @@ end
 
 def summon_captain_planet(array)# code an argument here
   array.collect do |calls|
-    array.upcase + 
+    array.upcase + "!"
     end# Your code here
 end
 
