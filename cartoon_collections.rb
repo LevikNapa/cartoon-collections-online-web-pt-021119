@@ -11,9 +11,9 @@ end
 
 def summon_captain_planet(planet_array)# code an argument here
 
- planet_array.map  {|names| array.capitalize + "!"}
+ planet_array.map  {|names| planet_array.capitalize + "!"}
     end# Your code here
-  
+  planet_array
 end
 
 def long_planeteer_calls# code an argument here
