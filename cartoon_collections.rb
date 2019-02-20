@@ -20,16 +20,14 @@ def summon_captain_planet(array)
   nu_array
 end
 
-def long_planeteer_calls(array)
-  array.any? 
-  if array > 4
-    true
+ i = 0 
+  if  array.any? {|i| i.length > 4}
+    return true
   else 
-    false
-  end
-  # Your code here
+    return false
+  i = i + 1
+  end 
 end
-
 def find_the_cheese# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
