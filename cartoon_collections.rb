@@ -9,10 +9,9 @@ def roll_call_dwarves(array)
   end 
 end
 
-def summon_captain_planet(array)# code an argument here
+def summon_captain_planet(planet_array)# code an argument here
 
-new_array = []
-  array.collect do |calls|
+ planet_array.map do |calls|
   new_array << array.capitalize + "!"
     end# Your code here
   
