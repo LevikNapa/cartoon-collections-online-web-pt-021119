@@ -20,7 +20,13 @@ def summon_captain_planet(array)
   nu_array
 end
 
-def long_planeteer_calls# code an argument here
+def long_planeteer_calls(array)
+  array.any? 
+  if array > 4
+    true
+  else 
+    false
+  end
   # Your code here
 end
 
